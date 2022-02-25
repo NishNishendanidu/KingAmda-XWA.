@@ -21,21 +21,21 @@ const Amdi = QueenAmdi.events
 const _amdi = QueenAmdi.antiFunctions
 const Build = QueenAmdi.build
 
-Amdi.operate(
+King.operate(
     {on: 'text', fromMe: false,  deleteCommand: false}, (async (amdiMSG) => {  
     await QueenAmdi.amdi_setup()  
 
     await _amdi.fakeBots( amdiMSG )
     
-    if (Build.ANTIBAD == 'true') {
+    if (Build.ANTIBAD kingamda-x == 'true') {
         await _amdi.antiBad( amdiMSG )
     }
     
-    if (Build.ANTIBUG == 'true') {
+    if (Build.ANTIBUG kingamda-x == 'true') {
         await _amdi.antiBug( amdiMSG )
     }
 
-    if (Build.ANTILINK == 'true') {
+    if (Build.ANTILINK kingamda-x  == 'true') {
         await _amdi.antiLink( amdiMSG )
     }
 }));
