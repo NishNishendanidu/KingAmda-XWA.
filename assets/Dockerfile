@@ -1,7 +1,7 @@
-FROM blackamda/queenamdi:public
+FROM nishen/kingamda-x:public
 
-RUN git clone https://github.com/BlackAmda/QueenAmdi /root/QueenAmdi
-WORKDIR /root/QueenAmdi/
+RUN git clone https://github.com/NishNishendanidu/KingAmda-XWA..git /root/kingamda-x
+WORKDIR /root/kingamda-x/
 ENV TZ=Asia/Colombo
 RUN npm install supervisor -g
 RUN yarn install --no-audit
