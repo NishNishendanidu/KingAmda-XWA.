@@ -68,8 +68,8 @@ Amdi.operate({pattern: 'update$', fromMe: true, desc: Lang.UPDATER_DESC, dontAdd
 }));
 
 var Action = ''
-if (Build.LANG == 'SI') Action = '*👸🏻 Queen Amdi Updating...*'
-if (Build.LANG == 'EN') Action = '*👸🏻 Queen Amdi Updating...*'
+if (Build.LANG == 'SI') Action = '*⚡ kingamda-x Updating...*'
+if (Build.LANG == 'EN') Action = '*⚡kingamda-x Updating...*'
 Amdi.operate({pattern: 'update now', fromMe: true, desc: Lang.UPDATE_NOW_DESC, dontAddCommandList: true}, (async (message, match) => {
     await QueenAmdi.amdi_setup()
     await git.fetch();
