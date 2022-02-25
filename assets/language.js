@@ -16,8 +16,8 @@ Licensed under the  GPL-3.0 License;
 you may not use this file except in compliance with the License.
 */
 
-const QueenAmdi = require('queenamdi-public');
-const build = QueenAmdi.build
+const kingamda-x = require('kingamda-x-public');
+const build = kingamda-x.build
 const fs = require('fs');
 const chalk = require('chalk');
 
